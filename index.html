@@ -61,12 +61,12 @@
                         <h3>Read time: 5 minutes</h3>
                     </header>
                     <main>
-                        <p>What ingredients do you have at home? </p>
+                        
                         <blockquote>
                             <cite>"Anyone can cook, but only the fearless can be great." - Ratatouille, 2007</cite>
                         </blockquote>
-                        <p>Here is what you need to buy to complete your ingredient list. </p>
-                        <p>Here are the recipes to choose from.</p>
+                        
+                        
                     </main>
                     <footer>
                         <h2>Author: Bright Network</h2>
@@ -83,45 +83,43 @@
         <!-- main content of the website can go here -->
 
         <hr>
-        <h2>Sign up for our newsletter!</h2>
+        <h2>Recipe generator</h2>
         <form action="" method="">
-            <label for="first_name">First Name:</label>
-            <input type="text" id="first_name" name="first_name" required>
+            <label for="current_ingredients_at_home">Current ingredients at home:</label>
+            <input type="text" id="current_ingredients_at_home" name="current_ingredients_at_home" required>
             <br>
 
-            <label for="last_name">Last Name:</label>
-            <input type="text" id="last_name" name="last_name" required>
+            <label for="recipes_generated_for_these_ingredients">Recipes generated for these ingredients:</label>
+            <input type="text" id="recipes_generated_for_these_ingredients" name="recipes_generated_for_these_ingredients" required>
             <br>
 
-            <label for="email">Email:</label>  
-            <input type="email" name="email" id="email">
+            <label for="ingredients_to_buy_to_generate_more_recipes">Ingredients to buy to generate more recipes:</label>  
+            <input type="ingredients_to_buy_to_generate_more_recipes" name="ingredients_to_buy_to_generate_more_recipes" id="ingredients_to_buy_to_generate_more_recipes">
             <br>
 
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password">
+            <label for="recipes_generated_for_these_ingredients">Recipes generated for these ingredients:</label>
+            <input type="recipes_generated_for_these_ingredients" name="recipes_generated_for_these_ingredients" id="recipes_generated_for_these_ingredients">
             <br>
 
-            <label for="favourite_animal">Favourite Animal:</label>
-            <input type="radio" name="favourite_animal" id="dog" value="dog">
-            <label for="dog">Dog</label>
-            <input type="radio" name="favourite_animal" id="cat" value="cat">
-            <label for="cat">Cat</label>
-            <input type="radio" name="favourite_animal" id="hedgehog" value="hedgehog">
-            <label for="hedgehog">Hedgehog</label>
+            <label for="cooking_pet_peeve">Cooking Pet Peeve:</label>
+            <input type="radio" name="cooking_pet_peeve" id="shopping" value="shopping">
+            <label for="shopping">Shopping</label>
+            <input type="radio" name="cooking_pet_peeve" id="prepping" value="prepping">
+            <label for="prepping">Prepping</label>
+            <input type="radio" name="cooking_pet_peeve" id="cleaning" value="cleaning">
+            <label for="cleaning">Cleaning</label>
             <br>
 
-            <label for="country">Country:</label>
-            <select name="country" id="country">
-                <option value="england">England</option>
-                <option value="scotland">Scotland</option>
-                <option value="wales">Wales</option>
-                <option value="northern_ireland">Northern Ireland</option>
+            <label for="preferred_shop">Preferred shop:</label>
+            <select name="preferred_shop" id="preferred_shop">
+                <option value="asda">Asda</option>
+                <option value="tesco">Tesco</option>
+                <option value="lidl">Lidl</option>
+                <option value="aldi">Aldi</option>
             </select>
             <br>
 
-            <label for="bio">Biography:</label>
-            <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
-            <br>
+           
 
             <input type="checkbox" name="subscribe" id="subscribe">
             <label for="subscribe">Subscribe to our newsletter!</label>
